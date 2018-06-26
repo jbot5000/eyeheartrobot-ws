@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700");
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inconsolata', monospace;
+}
+
+body {
+    margin: 0;
+    background: url(botzmarch.webp) no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    background-color: #333;
+    padding: 3em;
+}
+
+#content {
+    background: linear-gradient(15deg, rgba(255,0,0,0.9), darkorange);
+    max-width: 30em;
+    width: 100%;
+    min-height: 30em;
+    height: 100%;
+    margin: 0 auto;
+    color: #fefefe;
+    display: grid;
+    align-content: stretch;
+    justify-items: stretch;
+    position: relative;
+}
+
+#text {
+    padding: 0 2em;
+}
+
+p {
+    line-height: 1.6;
+}
+
+#logo {
+    width: 80%;
+    margin: 0 auto;
+    align-self: end;
+    padding: 2em 1em 1em 1em;
+}
+
+footer {
+    font-size: 0.8em;
+    padding: 2em;
+    background-color: rgba(0,0,0,0.2);
+    color: salmon;
+    align-self: end;
+}
+
+#jbot-logo img {
+    margin-bottom: -0.25em;
+}
